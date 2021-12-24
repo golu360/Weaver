@@ -1,0 +1,10 @@
+ssh_config:
+  user: hitul
+  key_file: /home/abhishek/.ssh/id_rsa.pub
+  forward_agent: true
+  host: 34.70.4.134
+  timeout: 10
+
+run:
+    - echo "On Server"
+    - hostname
